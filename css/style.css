@@ -12,44 +12,16 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url(../fonts/inter/Inter-Thin.otf);
-    src: url(../fonts/inter/Inter-ThinItalic.otf);
-    src: url(../fonts/inter/Inter-ExtraLight.otf);
-    src: url(../fonts/inter/Inter-ExtraLightItalic.otf);
     src: url(../fonts/inter/Inter-Light.otf);
-    src: url(../fonts/inter/Inter-LightItalic.otf);
-    src: url(../fonts/inter/Inter-Regular.otf);
-    src: url(../fonts/inter/Inter-Italic.otf);
+    /* src: url(../fonts/inter/Inter-Regular.otf); */
     src: url(../fonts/inter/Inter-Medium.otf);
-    src: url(../fonts/inter/Inter-MediumItalic.otf);
-    src: url(../fonts/inter/Inter-SemiBold.otf);
-    src: url(../fonts/inter/Inter-SemiBoldItalic.otf);
-    src: url(../fonts/inter/Inter-Bold.otf);
-    src: url(../fonts/inter/Inter-BoldItalic.otf);
-    src: url(../fonts/inter/Inter-ExtraBold.otf);
-    src: url(../fonts/inter/Inter-ExtraBoldItalic.otf);
-    src: url(../fonts/inter/Inter-Black.otf);
-    src: url(../fonts/inter/Inter-BlackItalic.otf);
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url(../fonts/montserrat-2/Montserrat-ExtraLight.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-ExtraLightItalic.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-Light.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-LightItalic.ttf);
     src: url(../fonts/montserrat-2/Montserrat-Regular.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-Italic.ttf);
     src: url(../fonts/montserrat-2/Montserrat-Medium.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-MediumItalic.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-SemiBold.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-SemiBoldItalic.ttf);
     src: url(../fonts/montserrat-2/Montserrat-Bold.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-BoldItalic.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-ExtraBold.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-ExtraBoldItalic.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-Black.ttf);
-    src: url(../fonts/montserrat-2/Montserrat-BlackItalic.ttf);
 }
 
 @font-face {
@@ -63,6 +35,12 @@ h2, .tournaments-title, .rating-title{
 
 h1{
     font-family: 'Montserrat';
+}
+
+.favicon-img {
+    width: 2200px;  
+    height: 2200px;  
+    flex: 1;
 }
 
 .container-baner {
@@ -97,7 +75,7 @@ header {
 }
 
 .shapca-logo img {
-    width: 300px;
+    width: 150px;
     margin-left: 0;
     height: auto;
     object-fit: contain;
@@ -131,7 +109,7 @@ nav a:hover{
 .baner-block {
     background-image: url('../image/baner.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     width: 100%;
     height: 100vh;
@@ -155,8 +133,9 @@ nav a:hover{
 }
 
 .baner-content h1 {
-    font-size: 50px;
+    font-size: 55px;
     line-height: 150%;
+    font-weight: bold;
     color: white;
     width: 800px;
 }
@@ -201,7 +180,9 @@ nav a:hover{
 
 .banner-description {
     font-size: 24px;
+    font-family: 'Montserrat';
     color: #ffffff;
+     font-weight: 400;
 }
 
 /* конец банера */
@@ -676,7 +657,7 @@ nav a:hover{
     position: absolute;
     top: 10px;
     left: 15px;
-    font-size: 72px;
+    font-size: 80px;
     font-weight: 400;
     color: rgb(255, 255, 255, 0.6);
    

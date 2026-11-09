@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #c7d300;
+      }
+
+      .st1 {
+        fill: #21534a;
+        font-family: Rockwell-Italic, Rockwell;
+        font-size: 242.92px;
+        font-style: italic;
+      }
+
+      .st1, .st2 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <circle class="st0" cx="149.5" cy="150.5" r="149.5"/>
+  <g class="st2">
+    <g class="st2">
+      <text class="st1" transform="translate(55.39 240.24)"><tspan x="0" y="0">П</tspan></text>
+    </g>
+  </g>
+</svg>
